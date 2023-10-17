@@ -155,3 +155,5 @@ limit: 10
 
 <!-- Your Code Goes Here -->
 
+{$and:[{founded_year: {$gte: 2000}}, {founded_year: {$lte: 2010}}, {"acquisition.acquired_year": {$lte: 2011}}]}
+
